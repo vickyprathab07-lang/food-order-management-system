@@ -37,7 +37,7 @@ export default function LoginPage() {
           const kitchenUser = {
             id: "kitchen",
             name: "Kitchen Staff",
-            email: "kitchen@quickbite.com",
+            email: "kitchen@madrascalcanteen.com",
             role: "kitchen"
           };
           localStorage.setItem("customer", JSON.stringify(kitchenUser));
@@ -56,7 +56,7 @@ export default function LoginPage() {
           const adminUser = {
             id: "admin",
             name: "Admin",
-            email: "admin@quickbite.com",
+            email: "admin@madrascalcanteen.com",
             role: "admin"
           };
           localStorage.setItem("customer", JSON.stringify(adminUser));

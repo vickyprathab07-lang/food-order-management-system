@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <ShoppingBag className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold">QuickBite</h1>
+            <h1 className="text-2xl font-bold">Mad Rascal Canteen</h1>
           </div>
           <nav className="flex items-center gap-4">
             <Link href="/menu">
@@ -98,7 +98,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="border-t border-border mt-12 py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2025 QuickBite. All rights reserved.</p>
+          <p>&copy; 2025 Mad Rascal Canteen. All rights reserved.</p>
         </div>
       </footer>
     </div>

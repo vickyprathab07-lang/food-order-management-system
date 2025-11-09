@@ -50,7 +50,7 @@ export default function SignUpPage() {
           const kitchenUser = {
             id: "kitchen",
             name: "Kitchen Staff",
-            email: "kitchen@quickbite.com",
+            email: "kitchen@madrascalcanteen.com",
             role: "kitchen"
           };
           localStorage.setItem("customer", JSON.stringify(kitchenUser));
@@ -69,7 +69,7 @@ export default function SignUpPage() {
           const adminUser = {
             id: "admin",
             name: "Admin",
-            email: "admin@quickbite.com",
+            email: "admin@madrascalcanteen.com",
             role: "admin"
           };
           localStorage.setItem("customer", JSON.stringify(adminUser));
@@ -136,7 +136,7 @@ export default function SignUpPage() {
               ? "Enter kitchen password to access dashboard" 
               : role === "admin"
               ? "Enter admin password to access dashboard"
-              : "Enter your details to get started with QuickBite"}
+              : "Enter your details to get started with Mad Rascal Canteen"}
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>
